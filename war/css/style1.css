@@ -1,0 +1,147 @@
+ body
+ {
+ margin: 0;
+ padding: 0;
+ 
+ }
+.calendar{
+	width: 130px;
+	height: 80px;
+	background-color: #e3e6e5;
+	color: gray;
+	/* border-radius: 5%; */
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	/* border-right: 1px solid gray; */
+	display: inline-block;
+	margin-left: -4px;
+	
+}
+
+#leftarrow{
+	width: 20px;
+	height: 35px;
+	background-color: #e3e6e5;
+	color: lightgray;
+	/* border-radius: 5%; */
+	font-size:26px;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	margin-left: -4px;
+	
+}
+#leftarrow:HOVER{
+	color: gray;
+	}
+	
+#rightarrow{
+	width: 20px;
+	height: 35px;
+	background-color: #e3e6e5;
+	color: lightgray;
+	font-size:26px;
+	display: inline-block;
+
+	border-right: 1px solid #ccc;
+	margin-left: -4px;
+	
+}
+#rightarrow:HOVER{
+	color: gray;
+	}
+#left
+{
+	font-weight:bold;
+	margin-left: 1px;
+	
+}
+#right
+{
+	font-weight:bold;
+	margin-left: 1px;
+}
+#click{
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+.calendar:HOVER{
+	
+	background-color: #d45555;
+	color: #fff;
+	
+	
+}
+.calendar>p{
+	font-family: verdana, Arial, sans-serif;
+	padding: 10px 0;
+	margin: 0;
+	/* color: gray; */
+	text-align: center;
+	
+}
+.calendar>p:HOVER{
+	color: #fff;
+
+	}
+.bga{
+	background-color: #d45555 ;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	/* margin-top:5px; */
+	padding-bottom: 0;
+	height: 80px;
+}
+/* #calendar-day{
+	
+	
+} */
+
+
+.bg{
+	font-size: 20px;
+	padding: 10px;
+	/* margin-top:5px; */
+	padding-bottom: 0;
+	/* height: 60px; */
+}
+
+/* #calendar-day-2{
+	font-size: 20px;
+	padding: 10px;
+	margin-top:5px;
+	padding-bottom: 0;
+	height: 70px;
+}
+
+#calendar-day_1{
+	font-size: 20px;
+	padding: 10px;
+	margin-top:5px;
+	padding-bottom: 0;
+	height: 70px;
+}
+
+#calendar-day_2{
+	font-size: 20px;
+	padding: 10px;
+	margin-top:5px;
+	padding-bottom: 0;
+	height: 70px;
+}
+ */
+#calendar-month-year{
+	font-size: 12px;
+}
+#calendar-date{
+	font-size: 13px;
+	padding-bottom: 0;
+} 
+.clder{
+	margin-left: 140px;
+}
+
+

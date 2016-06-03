@@ -1,0 +1,30 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Remainder Email</title>
+</head>
+<body style="padding: 0; margin: 0;">
+      <div style="margin-left:100px; margin-top:20px; border: 1px solid #000; background-color: white; padding: 10px; border-radius: 20px; font-family:  Verdana, Geneva, sans-serif; height: auto;width: 500px; ">
+      			<div style="padding-left: 20px; border-bottom: 1px solid lightgray;">
+      					<p style="font-size: 30px; font-family: Verdana, Geneva, sans-serif;">ToDo List</p>
+      					<h4>Hi ${name}</h4><p> You have created a new List in ToDo ListCreator </p> 			
+      			</div>
+      			<div style="float:left; padding: 20px; width: 150px;">
+		      			<p>When</p>
+		      			<p>List Name</p>
+		      			
+      			</div>
+      			<div style="padding: 20px; border-bottom: 1px solid lightgray;">
+		      			<p> ${date}</p>
+		      			<p> ${listname}</p>
+		      			
+      			</div>
+      			<div style="padding: 20px;">
+      					<p>Thanks,</p>
+      					<p>ToDo Team</p>
+      			</div>
+      	</div>
+</body>
+</html>

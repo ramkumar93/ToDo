@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/cron</url>
+    <description>Scheduled task every day 09:00(IST)</description>
+    <schedule>every day 09:00</schedule>
+    <timezone>Asia/Calcutta</timezone>
+  </cron>
+ <!--  <cron>
+    <url>/enqueue</url>
+    <description>Queued task in every minute</description>
+    <schedule>every 1 minutes</schedule>
+    <timezone>Asia/Calcutta</timezone>
+  </cron> -->
+</cronentries>
